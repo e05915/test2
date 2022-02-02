@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
-<title> HTMLåŸºç¤</title>
+<head>
+ <title> “d‘ìƒAƒvƒŠ </title>
+</head>
 <body>
-	Hellow World!
-<p>ã‚­ãƒ ãƒé‹</p>
-<p><img src="https://free-materials.com/adm/wp-content/uploads/2018/02/adpDSC_5152-750x500.jpg"/>
+	<input />
+<br>
+<button type = "button" onclick="document.querySelector('input').value+='7' " >7</button>
+<button type = "button" onclick="document.querySelector('input').value+='8' " >8</button>
+<button type = "button" onclick="document.querySelector('input').value+='9' " >9</button>
+<button type = "button" onclick="document.querySelector('input').value+='/' " >/</button>
+<br>
+<button onclick="document.querySelector('input').value+='4' " >4</button>
+<button onclick="document.querySelector('input').value+='5' " >5</button>
+<button onclick="document.querySelector('input').value+='6' " >6</button>
+<button onclick="document.querySelector('input').value+='*' " >*</button>
+<br>
+<button onclick="document.querySelector('input').value+='1' " >1</button>
+<button onclick="document.querySelector('input').value+='2' " >2</button>
+<button onclick="document.querySelector('input').value+='3' " >3</button>
+<button onclick="document.querySelector('input').value+='-' " >-</button>
+<br>
+<button onclick="document.querySelector('input').value+='0' " >0</button>
+<button onclick="document.querySelector('input').value+='.' " >.</button>
+<button onclick="document.querySelector('input').value='' " >C</button>
+<button onclick="document.querySelector('input').value+='+' " >+</button>
+<br>
+<button onclick="calc()" >=</button>
+
 </body>
+
+<script>
+    function calc() // uvƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½‚Ì‚ÅŒvZ‚·‚é
+    {
+	document.querySelector( 'input' ).value =  eval(document.querySelector( 'input' ).value)
+}
+</script>
+
+
+<style>
+
+ body {background-image:url(https://pics.prcm.jp/nekocute/19565476/jpeg/19565476.jpeg);
+	background-repeat:no-repeat;
+	background-size:20%;
+
+ }
+
+ button {
+   width : 40px;
+   hight : 50px;
+   background-color : #FFF;
+ }
+ .button {
+   width : 40px;
+   hight : 50px;
+   background-color : red;
+ }
+
+</style>
+
 </html>
+
